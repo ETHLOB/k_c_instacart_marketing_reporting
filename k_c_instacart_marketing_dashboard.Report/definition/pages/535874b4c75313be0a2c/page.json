@@ -30,8 +30,6 @@
       {
         "name": "Param_Filtereb21e2a593d7d1acd281",
         "boundFilter": "Filtereb21e2a593d7d1acd281",
-        "asAggregation": false,
-        "qnaSingleSelectRequired": false,
         "fieldExpr": {
           "Column": {
             "Expression": {

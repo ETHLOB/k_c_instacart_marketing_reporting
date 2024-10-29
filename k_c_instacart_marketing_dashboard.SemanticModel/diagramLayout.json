@@ -50,12 +50,12 @@
         {
           "location": {
             "x": 1467,
-            "y": 382
+            "y": 374
           },
           "nodeIndex": "instacart_order_products",
           "nodeLineageTag": "7c7e0f01-44fe-4ef8-a3ff-f61b1716e2fd",
           "size": {
-            "height": 185,
+            "height": 201,
             "width": 287
           },
           "zIndex": 6
