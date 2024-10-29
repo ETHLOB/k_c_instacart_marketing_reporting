@@ -1,0 +1,5465 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"instacart_aisles\",\"instacart_correlation_scores\",\"instacart_departments\",\"instacart_order_products\",\"instacart_orders\",\"instacart_products\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.131.1126.0 (24.07)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\",\"DaxQueryView_Desktop\"]"
+      }
+    ],
+    "culture": "es-ES",
+    "cultures": [
+      {
+        "name": "es-ES",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "instacart_aisle": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_aisles"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "instacart aisle": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "instacart_aisles": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "instacart passageway": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "instacart gangway": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "instacart walkway": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "instacart corridor": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "instacart lane": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "instacart passage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "instacart_aisle.aisle": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_aisles",
+                    "ConceptualProperty": "aisle"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "aisle": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "passageway": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "gangway": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "walkway": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "corridor": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "lane": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "passage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "instacart_aisle.aisle_id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_aisles",
+                    "ConceptualProperty": "aisle_id"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "aisle id": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "aisle_id": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "aisle identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "aisle identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "aisle identifier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "aisle credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "instacart_correlation_score": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_correlation_scores"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "instacart correlation score": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "instacart_correlation_scores": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "instacart correlation notch": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "instacart correlation slash": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "instacart correlation groove": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "instacart correlation nick": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "instacart correlation cut": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "instacart correlation mark": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "instacart correlation total": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  },
+                  {
+                    "instacart correlation tally": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  },
+                  {
+                    "instacart correlation grade": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  },
+                  {
+                    "instacart correlation result": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  }
+                ]
+              },
+              "instacart_correlation_score.correlation_score": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_correlation_scores",
+                    "ConceptualProperty": "correlation_score"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "correlation score": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "correlation_score": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "score": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "correlation notch": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "correlation slash": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "correlation groove": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "correlation nick": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "correlation cut": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "correlation mark": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "notch": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "slash": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "groove": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "nick": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "instacart_correlation_score.department_id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_correlation_scores",
+                    "ConceptualProperty": "department_id"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "department id": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "department_id": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "department identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "department identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "department identifier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "department credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "instacart_correlation_score.product_id_x": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_correlation_scores",
+                    "ConceptualProperty": "product_id_x"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "product id x": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "product_id_x": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "x": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "id x": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "artifact id x": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "product identification x": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "product identity x": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "product identifier x": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "identification x": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identity x": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identifier x": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "item id x": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "merchandise id x": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "produce id x": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "Target ID": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Target": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "instacart_correlation_score.product_id_y": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_correlation_scores",
+                    "ConceptualProperty": "product_id_y"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "product id y": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "product_id_y": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "y": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "id y": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "artifact id y": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "product identification y": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "product identity y": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "product identifier y": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "identification y": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identity y": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identifier y": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "item id y": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "merchandise id y": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "produce id y": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "Product ID": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "instacart_correlation_score.product_name_y": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_correlation_scores",
+                    "ConceptualProperty": "product_name_y"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "product name y": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "product_name_y": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "y": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "name y": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "artifact name y": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "item name y": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "merchandise name y": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "produce name y": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "product nickname y": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "product title y": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "product label y": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "product tag y": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "nickname y": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "title y": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "Product name": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "instacart_department": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_departments"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "instacart department": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "instacart_departments": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "instacart subdivision": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "instacart division": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "instacart unit": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "instacart section": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "instacart branch": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "instacart sector": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "instacart responsibility": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "instacart specialty": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "instacart realm": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "instacart area": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  }
+                ]
+              },
+              "instacart_department.department": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_departments",
+                    "ConceptualProperty": "department"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "department": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "subdivision": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "division": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "unit": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "section": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "branch": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "sector": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "responsibility": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "specialty": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "realm": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "area": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "instacart_department.department_id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_departments",
+                    "ConceptualProperty": "department_id"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "department id": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "department_id": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "department identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "department identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "department identifier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "department credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "instacart_order": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_orders"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "instacart order": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "instacart_orders": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "instacart instruction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "instacart direction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "instacart edict": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "instacart command": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "instacart directive": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "instacart demand": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "instacart mandate": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "instacart imperative": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "instacart stability": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "instacart harmony": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  }
+                ]
+              },
+              "instacart_order.day_hour_dow": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_orders",
+                    "ConceptualProperty": "day_hour_dow"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "day hour dow": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "day_hour_dow": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "dow": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "hour dow": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "instacart_order.day_hour_dow.variación.jerarquía_de_fecha": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_orders",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "VariationSet": "Variación",
+                    "VariationSource": "day_hour_dow"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "jerarquía de fecha": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.año": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_orders",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "HierarchyLevel": "Año",
+                    "VariationSet": "Variación",
+                    "VariationSource": "day_hour_dow"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "año": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "day hour dow año": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.día": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_orders",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "HierarchyLevel": "Día",
+                    "VariationSet": "Variación",
+                    "VariationSource": "day_hour_dow"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "día": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "day hour dow día": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.me": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_orders",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "HierarchyLevel": "Mes",
+                    "VariationSet": "Variación",
+                    "VariationSource": "day_hour_dow"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "me": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "day hour dow me": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.trimestre": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_orders",
+                    "Hierarchy": "Jerarquía de fechas",
+                    "HierarchyLevel": "Trimestre",
+                    "VariationSet": "Variación",
+                    "VariationSource": "day_hour_dow"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "trimestre": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "day hour dow trimestre": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "instacart_order.day_name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_orders",
+                    "ConceptualProperty": "day_name"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "day name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "day_name": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "day nickname": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "day title": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "day label": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "day tag": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "instacart_order.day_since_prior_order": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_orders",
+                    "ConceptualProperty": "days_since_prior_order"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "day since prior order": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "days_since_prior_order": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "instacart_order.order_dow": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_orders",
+                    "ConceptualProperty": "order_dow"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "order dow": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "order_dow": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "dow": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "instacart_order.order_hour_of_day": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_orders",
+                    "ConceptualProperty": "order_hour_of_day"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "order hour of day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "order_hour_of_day": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "order hour": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "order period of day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "order era of day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.489
+                    }
+                  },
+                  {
+                    "order epoch of day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.489
+                    }
+                  },
+                  {
+                    "order period": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "order era": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "order epoch": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "order age of day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.474
+                    }
+                  },
+                  {
+                    "order age": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  }
+                ]
+              },
+              "instacart_order.order_id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_orders",
+                    "ConceptualProperty": "order_id"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "order id": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "order_id": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "order": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "order identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "order identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "order identifier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "order credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "instruction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "direction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "edict": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "command": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "directive": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "demand": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "instacart_order.order_number": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_orders",
+                    "ConceptualProperty": "order_number"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "order number": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "order_number": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "order no": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "instacart_order.user_id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_orders",
+                    "ConceptualProperty": "user_id"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "user id": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "user_id": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "user": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "user identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "user identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "user identifier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "user credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "operator": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "worker": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "employer": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "manipulator": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "handler": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "manager": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  }
+                ]
+              },
+              "instacart_order_product": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_order_products"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "instacart order product": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "instacart_order_products": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "instacart order artifact": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "instacart order item": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "instacart order merchandise": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "instacart order produce": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  }
+                ]
+              },
+              "instacart_order_product.add_to_cart_order": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_order_products",
+                    "ConceptualProperty": "add_to_cart_order"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "add to cart order": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "add_to_cart_order": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "add to cart instruction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "add to tumbril order": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "add to wain order": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "add to cart direction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "add to cart edict": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "add to wagon order": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "add to dray order": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "add to cart command": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "add to cart directive": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "add to cart demand": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  }
+                ]
+              },
+              "instacart_order_product.order_id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_order_products",
+                    "ConceptualProperty": "order_id"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "order id": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "order_id": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "order": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "order identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "order identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "order identifier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "order credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "instruction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "direction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "edict": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "command": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "directive": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "demand": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "instacart_order_product.product_id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_order_products",
+                    "ConceptualProperty": "product_id"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "product id": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "product_id": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "product": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "product identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "product identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "product identifier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "artifact": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "product credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "item": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "merchandise": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "produce": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "artifact id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "item id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "instacart_order_product.reordered": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_order_products",
+                    "ConceptualProperty": "reordered"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "reordered": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "instacart_order_product.total_de_recuento_de_product_id_para_product_name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_order_products",
+                    "ConceptualProperty": "Total de Recuento de product_id para product_name"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "total de recuento de product_id para product_name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Turnover": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "instacart_product": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_products"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "instacart product": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "instacart_products": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "instacart artifact": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "instacart item": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "instacart merchandise": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "instacart produce": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "instacart_product.aisle_id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_products",
+                    "ConceptualProperty": "aisle_id"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "aisle id": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "aisle_id": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "aisle identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "aisle identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "aisle identifier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "aisle credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "instacart_product.department_id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_products",
+                    "ConceptualProperty": "department_id"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "department id": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "department_id": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "department identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "department identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "department identifier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "department credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "instacart_product.product_id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_products",
+                    "ConceptualProperty": "product_id"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "product id": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "product_id": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "product": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "product identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "product identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "product identifier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "artifact": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "product credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "item": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "merchandise": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "produce": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "artifact id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "item id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "instacart_product.product_name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "instacart_products",
+                    "ConceptualProperty": "product_name"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "product name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "product_name": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "product": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "artifact": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "product nickname": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "product title": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "product label": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "product tag": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "item": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "merchandise": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "produce": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "artifact name": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "item name": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "Target name": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "instacart_aisle_has_aisle": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_aisles"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_aisle.aisle"
+                      },
+                      "Subject": {
+                        "Role": "instacart_aisle"
+                      }
+                    },
+                    "ID": "instacart_aisles_have_aisles",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_aisle": {
+                    "Target": {
+                      "Entity": "instacart_aisle"
+                    }
+                  },
+                  "instacart_aisle.aisle": {
+                    "Target": {
+                      "Entity": "instacart_aisle.aisle"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_aisle_has_aisle_id": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_aisles"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_aisle.aisle_id"
+                      },
+                      "Subject": {
+                        "Role": "instacart_aisle"
+                      }
+                    },
+                    "ID": "instacart_aisles_have_aisle_ids",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_aisle": {
+                    "Target": {
+                      "Entity": "instacart_aisle"
+                    }
+                  },
+                  "instacart_aisle.aisle_id": {
+                    "Target": {
+                      "Entity": "instacart_aisle.aisle_id"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_correlation_score_has_correlation_score": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_correlation_scores"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_correlation_score.correlation_score"
+                      },
+                      "Subject": {
+                        "Role": "instacart_correlation_score"
+                      }
+                    },
+                    "ID": "instacart_correlation_scores_have_correlation_scores",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_correlation_score": {
+                    "Target": {
+                      "Entity": "instacart_correlation_score"
+                    }
+                  },
+                  "instacart_correlation_score.correlation_score": {
+                    "Target": {
+                      "Entity": "instacart_correlation_score.correlation_score"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_correlation_score_has_department_id": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_correlation_scores"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_correlation_score.department_id"
+                      },
+                      "Subject": {
+                        "Role": "instacart_correlation_score"
+                      }
+                    },
+                    "ID": "instacart_correlation_scores_have_department_ids",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_correlation_score": {
+                    "Target": {
+                      "Entity": "instacart_correlation_score"
+                    }
+                  },
+                  "instacart_correlation_score.department_id": {
+                    "Target": {
+                      "Entity": "instacart_correlation_score.department_id"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_correlation_score_has_instacart_product": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_correlation_scores"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_product"
+                      },
+                      "Subject": {
+                        "Role": "instacart_correlation_score"
+                      }
+                    },
+                    "ID": "instacart_correlation_scores_have_instacart_products",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_correlation_score"
+                      },
+                      "Subject": {
+                        "Role": "instacart_product"
+                      }
+                    },
+                    "ID": "instacart_products_have_instacart_correlation_scores",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_correlation_score": {
+                    "Target": {
+                      "Entity": "instacart_correlation_score"
+                    }
+                  },
+                  "instacart_product": {
+                    "Nouns": [
+                      {
+                        "x": {
+                          "State": "Generated"
+                        }
+                      }
+                    ],
+                    "Target": {
+                      "Entity": "instacart_product"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_correlation_score_has_product_id_y": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_correlation_scores"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_correlation_score.product_id_y"
+                      },
+                      "Subject": {
+                        "Role": "instacart_correlation_score"
+                      }
+                    },
+                    "ID": "instacart_correlation_scores_have_product_id_y",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_correlation_score": {
+                    "Target": {
+                      "Entity": "instacart_correlation_score"
+                    }
+                  },
+                  "instacart_correlation_score.product_id_y": {
+                    "Target": {
+                      "Entity": "instacart_correlation_score.product_id_y"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_correlation_score_has_product_name_y": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_correlation_scores"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_correlation_score.product_name_y"
+                      },
+                      "Subject": {
+                        "Role": "instacart_correlation_score"
+                      }
+                    },
+                    "ID": "instacart_correlation_scores_have_product_name_y",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_correlation_score": {
+                    "Target": {
+                      "Entity": "instacart_correlation_score"
+                    }
+                  },
+                  "instacart_correlation_score.product_name_y": {
+                    "Target": {
+                      "Entity": "instacart_correlation_score.product_name_y"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_department_has_department": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_departments"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_department.department"
+                      },
+                      "Subject": {
+                        "Role": "instacart_department"
+                      }
+                    },
+                    "ID": "instacart_departments_have_departments",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_department": {
+                    "Target": {
+                      "Entity": "instacart_department"
+                    }
+                  },
+                  "instacart_department.department": {
+                    "Target": {
+                      "Entity": "instacart_department.department"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_department_has_department_id": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_departments"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_department.department_id"
+                      },
+                      "Subject": {
+                        "Role": "instacart_department"
+                      }
+                    },
+                    "ID": "instacart_departments_have_department_ids",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_department": {
+                    "Target": {
+                      "Entity": "instacart_department"
+                    }
+                  },
+                  "instacart_department.department_id": {
+                    "Target": {
+                      "Entity": "instacart_department.department_id"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_order_day_hour_dow_has_variación_jerarquía_de_fecha": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_orders"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha"
+                      },
+                      "Subject": {
+                        "Role": "instacart_order.day_hour_dow"
+                      }
+                    },
+                    "ID": "day_hour_dow_have_jerarquía_de_fechas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_order.day_hour_dow": {
+                    "Target": {
+                      "Entity": "instacart_order.day_hour_dow"
+                    }
+                  },
+                  "instacart_order.day_hour_dow.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_order_day_hour_dow_variación_jerarquía_de_fecha_año_has_instacart_order_day_hour_dow_variación_jerarquía_de_fecha_trimestre": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_orders"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.año"
+                      }
+                    },
+                    "ID": "años_have_trimestres",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.año"
+                      },
+                      "Subject": {
+                        "Role": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.trimestre"
+                      }
+                    },
+                    "ID": "trimestres_have_años",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "trimestres_are_in_años",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.año"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.trimestre"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.año": {
+                    "Target": {
+                      "Entity": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.año"
+                    }
+                  },
+                  "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.trimestre": {
+                    "Target": {
+                      "Entity": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_order_day_hour_dow_variación_jerarquía_de_fecha_has_año": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_orders"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.año"
+                      },
+                      "Subject": {
+                        "Role": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha"
+                      }
+                    },
+                    "ID": "jerarquía_de_fechas_have_años",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_order.day_hour_dow.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha"
+                    }
+                  },
+                  "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.año": {
+                    "Target": {
+                      "Entity": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.año"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_order_day_hour_dow_variación_jerarquía_de_fecha_has_día": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_orders"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.día"
+                      },
+                      "Subject": {
+                        "Role": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha"
+                      }
+                    },
+                    "ID": "jerarquía_de_fechas_have_días",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_order.day_hour_dow.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha"
+                    }
+                  },
+                  "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.día": {
+                    "Target": {
+                      "Entity": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.día"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_order_day_hour_dow_variación_jerarquía_de_fecha_has_me": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_orders"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.me"
+                      },
+                      "Subject": {
+                        "Role": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha"
+                      }
+                    },
+                    "ID": "jerarquía_de_fechas_have_me",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_order.day_hour_dow.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha"
+                    }
+                  },
+                  "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.me": {
+                    "Target": {
+                      "Entity": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.me"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_order_day_hour_dow_variación_jerarquía_de_fecha_has_trimestre": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_orders"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha"
+                      }
+                    },
+                    "ID": "jerarquía_de_fechas_have_trimestres",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_order.day_hour_dow.variación.jerarquía_de_fecha": {
+                    "Target": {
+                      "Entity": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha"
+                    }
+                  },
+                  "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.trimestre": {
+                    "Target": {
+                      "Entity": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_order_day_hour_dow_variación_jerarquía_de_fecha_me_has_instacart_order_day_hour_dow_variación_jerarquía_de_fecha_día": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_orders"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.día"
+                      },
+                      "Subject": {
+                        "Role": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.me"
+                      }
+                    },
+                    "ID": "me_have_días",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.me"
+                      },
+                      "Subject": {
+                        "Role": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.día"
+                      }
+                    },
+                    "ID": "días_have_me",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "días_are_in_me",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.me"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.día"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.día": {
+                    "Target": {
+                      "Entity": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.día"
+                    }
+                  },
+                  "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.me": {
+                    "Target": {
+                      "Entity": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.me"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_order_day_hour_dow_variación_jerarquía_de_fecha_trimestre_has_instacart_order_day_hour_dow_variación_jerarquía_de_fecha_me": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_orders"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.me"
+                      },
+                      "Subject": {
+                        "Role": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.trimestre"
+                      }
+                    },
+                    "ID": "trimestres_have_me",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.me"
+                      }
+                    },
+                    "ID": "me_have_trimestres",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "me_are_in_trimestres",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.trimestre"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.me"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.me": {
+                    "Target": {
+                      "Entity": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.me"
+                    }
+                  },
+                  "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.trimestre": {
+                    "Target": {
+                      "Entity": "instacart_order.day_hour_dow.variación.jerarquía_de_fecha.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_order_has_day_hour_dow": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_orders"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_order.day_hour_dow"
+                      },
+                      "Subject": {
+                        "Role": "instacart_order"
+                      }
+                    },
+                    "ID": "instacart_orders_have_day_hour_dow",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_order": {
+                    "Target": {
+                      "Entity": "instacart_order"
+                    }
+                  },
+                  "instacart_order.day_hour_dow": {
+                    "Target": {
+                      "Entity": "instacart_order.day_hour_dow"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_order_has_day_name": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_orders"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_order.day_name"
+                      },
+                      "Subject": {
+                        "Role": "instacart_order"
+                      }
+                    },
+                    "ID": "instacart_orders_have_day_names",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_order": {
+                    "Target": {
+                      "Entity": "instacart_order"
+                    }
+                  },
+                  "instacart_order.day_name": {
+                    "Target": {
+                      "Entity": "instacart_order.day_name"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_order_has_day_since_prior_order": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_orders"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_order.day_since_prior_order"
+                      },
+                      "Subject": {
+                        "Role": "instacart_order"
+                      }
+                    },
+                    "ID": "instacart_orders_have_day_since_prior_order",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_order": {
+                    "Target": {
+                      "Entity": "instacart_order"
+                    }
+                  },
+                  "instacart_order.day_since_prior_order": {
+                    "Target": {
+                      "Entity": "instacart_order.day_since_prior_order"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_order_has_order_dow": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_orders"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_order.order_dow"
+                      },
+                      "Subject": {
+                        "Role": "instacart_order"
+                      }
+                    },
+                    "ID": "instacart_orders_have_order_dow",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_order": {
+                    "Target": {
+                      "Entity": "instacart_order"
+                    }
+                  },
+                  "instacart_order.order_dow": {
+                    "Target": {
+                      "Entity": "instacart_order.order_dow"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_order_has_order_hour_of_day": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_orders"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_order.order_hour_of_day"
+                      },
+                      "Subject": {
+                        "Role": "instacart_order"
+                      }
+                    },
+                    "ID": "instacart_orders_have_order_hour_of_day",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_order": {
+                    "Target": {
+                      "Entity": "instacart_order"
+                    }
+                  },
+                  "instacart_order.order_hour_of_day": {
+                    "Target": {
+                      "Entity": "instacart_order.order_hour_of_day"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_order_has_order_id": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_orders"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_order.order_id"
+                      },
+                      "Subject": {
+                        "Role": "instacart_order"
+                      }
+                    },
+                    "ID": "instacart_orders_have_order_ids",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_order": {
+                    "Target": {
+                      "Entity": "instacart_order"
+                    }
+                  },
+                  "instacart_order.order_id": {
+                    "Target": {
+                      "Entity": "instacart_order.order_id"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_order_has_order_number": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_orders"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_order.order_number"
+                      },
+                      "Subject": {
+                        "Role": "instacart_order"
+                      }
+                    },
+                    "ID": "instacart_orders_have_order_numbers",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_order": {
+                    "Target": {
+                      "Entity": "instacart_order"
+                    }
+                  },
+                  "instacart_order.order_number": {
+                    "Target": {
+                      "Entity": "instacart_order.order_number"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_order_has_user_id": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_orders"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_order.user_id"
+                      },
+                      "Subject": {
+                        "Role": "instacart_order"
+                      }
+                    },
+                    "ID": "instacart_orders_have_user_ids",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_order": {
+                    "Target": {
+                      "Entity": "instacart_order"
+                    }
+                  },
+                  "instacart_order.user_id": {
+                    "Target": {
+                      "Entity": "instacart_order.user_id"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_order_product_has_add_to_cart_order": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_order_products"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_order_product.add_to_cart_order"
+                      },
+                      "Subject": {
+                        "Role": "instacart_order_product"
+                      }
+                    },
+                    "ID": "instacart_order_products_have_add_to_cart_order",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_order_product": {
+                    "Target": {
+                      "Entity": "instacart_order_product"
+                    }
+                  },
+                  "instacart_order_product.add_to_cart_order": {
+                    "Target": {
+                      "Entity": "instacart_order_product.add_to_cart_order"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_order_product_has_instacart_order": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_order_products"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_order"
+                      },
+                      "Subject": {
+                        "Role": "instacart_order_product"
+                      }
+                    },
+                    "ID": "instacart_order_products_have_instacart_orders",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_order_product"
+                      },
+                      "Subject": {
+                        "Role": "instacart_order"
+                      }
+                    },
+                    "ID": "instacart_orders_have_instacart_order_products",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_order": {
+                    "Target": {
+                      "Entity": "instacart_order"
+                    }
+                  },
+                  "instacart_order_product": {
+                    "Target": {
+                      "Entity": "instacart_order_product"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_order_product_has_instacart_product": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_order_products"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_product"
+                      },
+                      "Subject": {
+                        "Role": "instacart_order_product"
+                      }
+                    },
+                    "ID": "instacart_order_products_have_instacart_products",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_order_product"
+                      },
+                      "Subject": {
+                        "Role": "instacart_product"
+                      }
+                    },
+                    "ID": "instacart_products_have_instacart_order_products",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_order_product": {
+                    "Target": {
+                      "Entity": "instacart_order_product"
+                    }
+                  },
+                  "instacart_product": {
+                    "Nouns": [
+                      {
+                        "product": {
+                          "State": "Generated"
+                        }
+                      }
+                    ],
+                    "Target": {
+                      "Entity": "instacart_product"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_order_product_has_reordered": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_order_products"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_order_product.reordered"
+                      },
+                      "Subject": {
+                        "Role": "instacart_order_product"
+                      }
+                    },
+                    "ID": "instacart_order_products_have_reordered",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Adjective": {
+                      "Adjectives": [
+                        {
+                          "reordered": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Measurement": {
+                        "Role": "instacart_order_product.reordered"
+                      },
+                      "Subject": {
+                        "Role": "instacart_order_product"
+                      }
+                    },
+                    "ID": "reordered_indicates_how_reordered_instacart_order_products_are",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_order_product": {
+                    "Target": {
+                      "Entity": "instacart_order_product"
+                    }
+                  },
+                  "instacart_order_product.reordered": {
+                    "Target": {
+                      "Entity": "instacart_order_product.reordered"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_order_product_has_total_de_recuento_de_product_id_para_product_name": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_order_products"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_order_product.total_de_recuento_de_product_id_para_product_name"
+                      },
+                      "Subject": {
+                        "Role": "instacart_order_product"
+                      }
+                    },
+                    "ID": "instacart_order_products_have_total_de_recuento_de_product_id_para_product_name",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_order_product": {
+                    "Target": {
+                      "Entity": "instacart_order_product"
+                    }
+                  },
+                  "instacart_order_product.total_de_recuento_de_product_id_para_product_name": {
+                    "Target": {
+                      "Entity": "instacart_order_product.total_de_recuento_de_product_id_para_product_name"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_product_has_instacart_aisle": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_products"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_aisle"
+                      },
+                      "Subject": {
+                        "Role": "instacart_product"
+                      }
+                    },
+                    "ID": "instacart_products_have_instacart_aisles",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_product"
+                      },
+                      "Subject": {
+                        "Role": "instacart_aisle"
+                      }
+                    },
+                    "ID": "instacart_aisles_have_instacart_products",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_aisle": {
+                    "Target": {
+                      "Entity": "instacart_aisle"
+                    }
+                  },
+                  "instacart_product": {
+                    "Target": {
+                      "Entity": "instacart_product"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_product_has_instacart_department": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_products"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_department"
+                      },
+                      "Subject": {
+                        "Role": "instacart_product"
+                      }
+                    },
+                    "ID": "instacart_products_have_instacart_departments",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_product"
+                      },
+                      "Subject": {
+                        "Role": "instacart_department"
+                      }
+                    },
+                    "ID": "instacart_departments_have_instacart_products",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_department": {
+                    "Target": {
+                      "Entity": "instacart_department"
+                    }
+                  },
+                  "instacart_product": {
+                    "Target": {
+                      "Entity": "instacart_product"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_product_has_product_id": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_products"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_product.product_id"
+                      },
+                      "Subject": {
+                        "Role": "instacart_product"
+                      }
+                    },
+                    "ID": "instacart_products_have_product_ids",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_product": {
+                    "Target": {
+                      "Entity": "instacart_product"
+                    }
+                  },
+                  "instacart_product.product_id": {
+                    "Target": {
+                      "Entity": "instacart_product.product_id"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "instacart_product_has_product_name": {
+                "Binding": {
+                  "ConceptualEntity": "instacart_products"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "instacart_product.product_name"
+                      },
+                      "Subject": {
+                        "Role": "instacart_product"
+                      }
+                    },
+                    "ID": "instacart_products_have_product_names",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "instacart_product": {
+                    "Target": {
+                      "Entity": "instacart_product"
+                    }
+                  },
+                  "instacart_product.product_name": {
+                    "Target": {
+                      "Entity": "instacart_product.product_name"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "2ba9f8d0-0164-b9b5-84b8-9d7df6d88fc6",
+        "fromColumn": "department_id",
+        "fromTable": "instacart_products",
+        "toColumn": "department_id",
+        "toTable": "instacart_departments"
+      },
+      {
+        "name": "db75bfe8-392a-14c6-ab9d-e2d3208b13bf",
+        "fromColumn": "aisle_id",
+        "fromTable": "instacart_products",
+        "toColumn": "aisle_id",
+        "toTable": "instacart_aisles"
+      },
+      {
+        "name": "9ac5adec-0e4c-9030-1f93-ea35ba8cc707",
+        "fromColumn": "order_id",
+        "fromTable": "instacart_order_products",
+        "toColumn": "order_id",
+        "toTable": "instacart_orders"
+      },
+      {
+        "name": "6ebe8683-50be-984d-54af-f16eab465822",
+        "fromColumn": "product_id",
+        "fromTable": "instacart_order_products",
+        "toColumn": "product_id",
+        "toTable": "instacart_products"
+      },
+      {
+        "name": "4efc9ead-8bf3-4f11-920b-ceeb5418e5c5",
+        "fromColumn": "day_hour_dow",
+        "fromTable": "instacart_orders",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_f9d6467b-822d-4bb9-b84c-ad41ced2036d"
+      },
+      {
+        "name": "cb8e6174-d234-222d-a68d-81b4ef41f69e",
+        "fromColumn": "product_id_x",
+        "fromTable": "instacart_correlation_scores",
+        "toColumn": "product_id",
+        "toTable": "instacart_products"
+      },
+      {
+        "name": "12e41e14-a9ac-df96-1d84-6f7bf8f1c880",
+        "fromColumn": "department_id",
+        "fromTable": "instacart_correlation_scores",
+        "isActive": false,
+        "toColumn": "department_id",
+        "toTable": "instacart_departments"
+      }
+    ],
+    "sourceQueryCulture": "es-CO",
+    "tables": [
+      {
+        "name": "instacart_aisles",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "aisle_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "48d7c7e8-155b-401f-a531-d29dae337417",
+            "sourceColumn": "aisle_id",
+            "sourceProviderType": "bigint",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "aisle",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "eb94bfb3-0c08-4717-ac18-c4d8b3e3b862",
+            "sourceColumn": "aisle",
+            "sourceProviderType": "nvarchar(65535)",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "48179ac1-5b79-46e7-ace9-c352fa735485",
+        "partitions": [
+          {
+            "name": "instacart_aisles",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Databricks.Catalogs(\"adb-4922282910286097.17.azuredatabricks.net\", \"/sql/1.0/warehouses/44509fac7567c25e\", [Catalog = \"\", Database = \"\"]),",
+                "    mdlo_tics_Database = Origen{[Name=\"mdlo_tics\",Kind=\"Database\"]}[Data],",
+                "    test_Schema = mdlo_tics_Database{[Name=\"test\",Kind=\"Schema\"]}[Data],",
+                "    instacart_aisles_Table = test_Schema{[Name=\"instacart_aisles\",Kind=\"Table\"]}[Data],",
+                "    #\"Columnas quitadas\" = Table.RemoveColumns(instacart_aisles_Table,{\"index\"})",
+                "in",
+                "    #\"Columnas quitadas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "instacart_correlation_scores",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "department_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "bdc22605-04a0-488f-bc14-b872c5cfbcc5",
+            "sourceColumn": "department_id",
+            "sourceProviderType": "bigint",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "product_id_x",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4e8bab7a-21f8-4072-a8ee-ad34877cb7f7",
+            "sourceColumn": "product_id_x",
+            "sourceProviderType": "nvarchar(65535)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "product_id_y",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "06ed38a9-34b1-4236-9550-d3e55e120e01",
+            "sourceColumn": "product_id_y",
+            "sourceProviderType": "nvarchar(65535)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "correlation_score",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "0ea3d5e1-d5c3-4d35-8b65-30b4802b32da",
+            "sourceColumn": "correlation_score",
+            "sourceProviderType": "double",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "product_name_y",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "aa18a2d1-dc6f-41ec-8a7b-23cd0388d040",
+            "sourceColumn": "product_name_y",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "bcef1631-4eeb-4424-9a3d-9fc49af954b1",
+        "partitions": [
+          {
+            "name": "instacart_correlation_scores",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Databricks.Catalogs(\"adb-4922282910286097.17.azuredatabricks.net\", \"/sql/1.0/warehouses/44509fac7567c25e\", [Catalog = \"\", Database = \"\"]),",
+                "    mdlo_tics_Database = Origen{[Name=\"mdlo_tics\",Kind=\"Database\"]}[Data],",
+                "    test_Schema = mdlo_tics_Database{[Name=\"test\",Kind=\"Schema\"]}[Data],",
+                "    instacart_correlation_scores_Table = test_Schema{[Name=\"instacart_correlation_scores\",Kind=\"Table\"]}[Data]",
+                "in",
+                "    instacart_correlation_scores_Table"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "instacart_departments",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "department_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "dbbeb466-b4c2-4e54-9fd6-9a28b1e7e058",
+            "sourceColumn": "department_id",
+            "sourceProviderType": "bigint",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "department",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ce4243d2-e259-4748-88fd-227ad668f088",
+            "sourceColumn": "department",
+            "sourceProviderType": "nvarchar(65535)",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "3af22a75-4e41-4847-ae99-df5655b2ef17",
+        "partitions": [
+          {
+            "name": "instacart_departments",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Databricks.Catalogs(\"adb-4922282910286097.17.azuredatabricks.net\", \"/sql/1.0/warehouses/44509fac7567c25e\", [Catalog = \"\", Database = \"\"]),",
+                "    mdlo_tics_Database = Origen{[Name=\"mdlo_tics\",Kind=\"Database\"]}[Data],",
+                "    test_Schema = mdlo_tics_Database{[Name=\"test\",Kind=\"Schema\"]}[Data],",
+                "    instacart_departments_Table = test_Schema{[Name=\"instacart_departments\",Kind=\"Table\"]}[Data],",
+                "    #\"Columnas quitadas\" = Table.RemoveColumns(instacart_departments_Table,{\"index\"})",
+                "in",
+                "    #\"Columnas quitadas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "instacart_order_products",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "order_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f533c56c-6bba-48c7-a52b-b65072593451",
+            "sourceColumn": "order_id",
+            "sourceProviderType": "bigint",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "product_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "6c1a5e96-5591-4526-8ff4-5a7098edf90b",
+            "sourceColumn": "product_id",
+            "sourceProviderType": "bigint",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "add_to_cart_order",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "531caec2-ea09-4200-8a61-568cdc8ad185",
+            "sourceColumn": "add_to_cart_order",
+            "sourceProviderType": "bigint",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "reordered",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "9908aef3-37dc-45cf-b23b-d8f637529068",
+            "sourceColumn": "reordered",
+            "sourceProviderType": "bigint",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "7c7e0f01-44fe-4ef8-a3ff-f61b1716e2fd",
+        "measures": [
+          {
+            "name": "Total de Recuento de product_id para product_name",
+            "changedProperties": [
+              {
+                "property": "FormatString"
+              }
+            ],
+            "expression": [
+              "",
+              "CALCULATE(",
+              "\tCOUNTA('instacart_order_products'[product_id]),",
+              "\tALLSELECTED('instacart_products'[product_name])",
+              ")"
+            ],
+            "extendedProperties": [
+              {
+                "name": "MeasureTemplate",
+                "type": "json",
+                "value": {
+                  "daxTemplateName": "TotalForSelectedCategory",
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "0",
+            "lineageTag": "c2312f63-b4a5-42b6-ab6e-7fb2353c1e58"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "instacart_order_products",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Databricks.Catalogs(\"adb-4922282910286097.17.azuredatabricks.net\", \"/sql/1.0/warehouses/44509fac7567c25e\", [Catalog = \"\", Database = \"\"]),",
+                "    mdlo_tics_Database = Origen{[Name=\"mdlo_tics\",Kind=\"Database\"]}[Data],",
+                "    test_Schema = mdlo_tics_Database{[Name=\"test\",Kind=\"Schema\"]}[Data],",
+                "    instacart_order_products_Table = test_Schema{[Name=\"instacart_order_products\",Kind=\"Table\"]}[Data]",
+                "in",
+                "    instacart_order_products_Table"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "instacart_orders",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "order_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e3390095-daea-4023-95b9-316bb9051cbd",
+            "sourceColumn": "order_id",
+            "sourceProviderType": "bigint",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "user_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c5f6c898-9e49-4226-8f9e-2410da8b1de4",
+            "sourceColumn": "user_id",
+            "sourceProviderType": "bigint",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "order_number",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "971020ec-00dc-4d76-811a-0264c9c57053",
+            "sourceColumn": "order_number",
+            "sourceProviderType": "bigint",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "order_dow",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "bb033cf3-5f21-4c43-968a-e96fdd8f1fe7",
+            "sourceColumn": "order_dow",
+            "sourceProviderType": "bigint",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "order_hour_of_day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ff7b500d-38ae-4f05-8075-a8b67d5c0b1d",
+            "sourceColumn": "order_hour_of_day",
+            "sourceProviderType": "bigint",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "days_since_prior_order",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "2440fb2d-12c0-4921-bb49-ef42add5cfa1",
+            "sourceColumn": "days_since_prior_order",
+            "sourceProviderType": "double",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "day_hour_dow",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "expression": "DATE(2012, 1, 1) + instacart_orders[order_dow] + TIME(instacart_orders[order_hour_of_day], 0, 0)",
+            "formatString": "General Date",
+            "isDataTypeInferred": true,
+            "lineageTag": "c15a8256-355b-4ce8-ae92-5b84c4f745e9",
+            "summarizeBy": "none",
+            "type": "calculated",
+            "variations": [
+              {
+                "name": "Variación",
+                "defaultHierarchy": {
+                  "hierarchy": "Jerarquía de fechas",
+                  "table": "LocalDateTable_f9d6467b-822d-4bb9-b84c-ad41ced2036d"
+                },
+                "isDefault": true,
+                "relationship": "4efc9ead-8bf3-4f11-920b-ceeb5418e5c5"
+              }
+            ]
+          },
+          {
+            "name": "day_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": "FORMAT(instacart_orders[day_hour_dow], \"dddd\")",
+            "isDataTypeInferred": true,
+            "lineageTag": "033eaf7b-3813-4b0f-9360-0ea8e4fd52c7",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "1a68e851-c3cf-4872-b469-c2370fbcab2d",
+        "partitions": [
+          {
+            "name": "instacart_orders",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Databricks.Catalogs(\"adb-4922282910286097.17.azuredatabricks.net\", \"/sql/1.0/warehouses/44509fac7567c25e\", [Catalog = \"\", Database = \"\"]),",
+                "    mdlo_tics_Database = Origen{[Name=\"mdlo_tics\",Kind=\"Database\"]}[Data],",
+                "    test_Schema = mdlo_tics_Database{[Name=\"test\",Kind=\"Schema\"]}[Data],",
+                "    instacart_orders_Table = test_Schema{[Name=\"instacart_orders\",Kind=\"Table\"]}[Data]",
+                "in",
+                "    instacart_orders_Table"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "instacart_products",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "product_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b10fdb05-4915-4609-ada8-d292dc60c5cd",
+            "sourceColumn": "product_id",
+            "sourceProviderType": "bigint",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "product_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7683dd88-ad7d-41a4-90c8-25168c98a238",
+            "sourceColumn": "product_name",
+            "sourceProviderType": "nvarchar(65535)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "aisle_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3d6736c1-94eb-4dbf-94ea-3d8ada1a093d",
+            "sourceColumn": "aisle_id",
+            "sourceProviderType": "bigint",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "department_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "8a6e9466-c480-4591-bd85-937b1e19755f",
+            "sourceColumn": "department_id",
+            "sourceProviderType": "bigint",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "430141ed-e852-4435-a2f2-97f234059160",
+        "partitions": [
+          {
+            "name": "instacart_products",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Databricks.Catalogs(\"adb-4922282910286097.17.azuredatabricks.net\", \"/sql/1.0/warehouses/44509fac7567c25e\", [Catalog = \"\", Database = \"\"]),",
+                "    mdlo_tics_Database = Origen{[Name=\"mdlo_tics\",Kind=\"Database\"]}[Data],",
+                "    test_Schema = mdlo_tics_Database{[Name=\"test\",Kind=\"Schema\"]}[Data],",
+                "    instacart_products_Table = test_Schema{[Name=\"instacart_products\",Kind=\"Table\"]}[Data],",
+                "    #\"Columnas quitadas\" = Table.RemoveColumns(instacart_products_Table,{\"index\"})",
+                "in",
+                "    #\"Columnas quitadas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_84f315eb-d1bd-4fc5-bb02-920a9f9b2126",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "45efc907-221b-4443-aa55-b1c83a2bbdc7",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Año",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "7cedf7ad-7b1c-4124-810e-eb22ae765f57",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroMes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "dfa62e33-2b5a-4194-b564-6e2f600101be",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "29d9a31c-60e8-4833-bfd1-0401377f037b",
+            "sortByColumn": "NroMes",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroTrimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([NroMes] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "8b6ae8d7-21d6-433d-945c-dde4a1e8eb42",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim. \" & [NroTrimestre]",
+            "isHidden": true,
+            "lineageTag": "85c8c36f-b180-4bb9-9741-8bf8139c981e",
+            "sortByColumn": "NroTrimestre",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Día",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "37db615f-d656-4108-8865-8472aca579ed",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Jerarquía de fechas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Año",
+                "column": "Año",
+                "lineageTag": "61a8e7f9-62de-4796-8cc7-12cefd6a58f9",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "e641de46-bfb9-4dd2-a6f1-baecc419d71a",
+                "ordinal": 1
+              },
+              {
+                "name": "Mes",
+                "column": "Mes",
+                "lineageTag": "37380b7f-5334-43e7-b073-84ab6e296d91",
+                "ordinal": 2
+              },
+              {
+                "name": "Día",
+                "column": "Día",
+                "lineageTag": "69438b40-38b7-4c13-afbf-67c94e3fba7e",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "e050efe9-4a53-4012-8fe8-7c756b50e208"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "b374ea53-3df6-4b15-8836-5f54d3ca18d5",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_84f315eb-d1bd-4fc5-bb02-920a9f9b2126",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_f9d6467b-822d-4bb9-b84c-ad41ced2036d",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "a5e919dc-8934-4d24-a599-1d67d2fbfa33",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Año",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "641ab890-5067-4ca7-83d9-2c3b14206799",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroMes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "167c0a59-d10f-4853-9f40-5830634e09fb",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "127befb6-541f-493c-9928-19397565ddc5",
+            "sortByColumn": "NroMes",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroTrimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([NroMes] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "c355a4a3-da96-45d0-a800-6d446f008e4e",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim. \" & [NroTrimestre]",
+            "isHidden": true,
+            "lineageTag": "55fd3ee0-332d-496c-be52-418a1b88107e",
+            "sortByColumn": "NroTrimestre",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Día",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "f821a37a-55a9-4ea9-9694-877908ae681c",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Jerarquía de fechas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Año",
+                "column": "Año",
+                "lineageTag": "5d6736d0-ac90-4e73-8bf1-bd26bbc8b75b",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "e290d78a-e0e0-49a4-af62-c03e3d9db429",
+                "ordinal": 1
+              },
+              {
+                "name": "Mes",
+                "column": "Mes",
+                "lineageTag": "c83a4263-be68-4082-a145-bbc99b1d0f69",
+                "ordinal": 2
+              },
+              {
+                "name": "Día",
+                "column": "Día",
+                "lineageTag": "cb57ea69-e3b3-4e77-8b9e-89b16c27407f",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "c1d064ea-2d36-4097-9d94-41c75263fc77"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "ea9662f3-5e33-4b68-8f5f-c018349c71a5",
+        "partitions": [
+          {
+            "name": "LocalDateTable_f9d6467b-822d-4bb9-b84c-ad41ced2036d",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('instacart_orders'[day_hour_dow])), 1, 1), Date(Year(MAX('instacart_orders'[day_hour_dow])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      }
+    ]
+  }
+}

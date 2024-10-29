@@ -1,0 +1,29 @@
+{
+  "name": "Custom",
+  "dataColors": [
+    "#014029",
+    "#0FA60A",
+    "#137310",
+    "#F2600C",
+    "#7D581D",
+    "#000000",
+    "#1EA3D9",
+    "#67D9D6"
+  ],
+  "visualStyles": {
+    "page": {
+      "*": {
+        "outspace": [
+          {
+            "color": {
+              "solid": {
+                "color": "#D9D9D9"
+              }
+            },
+            "transparency": 60
+          }
+        ]
+      }
+    }
+  }
+}

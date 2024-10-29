@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "k_c_instacart_marketing_dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "6daea408-be2b-4a50-9af0-c17f8288b823"
+  }
+}

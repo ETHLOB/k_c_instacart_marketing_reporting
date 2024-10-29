@@ -1,0 +1,100 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 636,
+            "y": 572
+          },
+          "nodeIndex": "instacart_aisles",
+          "nodeLineageTag": "48179ac1-5b79-46e7-ace9-c352fa735485",
+          "size": {
+            "height": 145,
+            "width": 246
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 1229,
+            "y": 74
+          },
+          "nodeIndex": "instacart_correlation_scores",
+          "nodeLineageTag": "bcef1631-4eeb-4424-9a3d-9fc49af954b1",
+          "size": {
+            "height": 222,
+            "width": 287
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 1032,
+            "y": 678
+          },
+          "nodeIndex": "instacart_departments",
+          "nodeLineageTag": "3af22a75-4e41-4847-ae99-df5655b2ef17",
+          "size": {
+            "height": 163,
+            "width": 255
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 1467,
+            "y": 382
+          },
+          "nodeIndex": "instacart_order_products",
+          "nodeLineageTag": "7c7e0f01-44fe-4ef8-a3ff-f61b1716e2fd",
+          "size": {
+            "height": 185,
+            "width": 287
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 1476,
+            "y": 665
+          },
+          "nodeIndex": "instacart_orders",
+          "nodeLineageTag": "1a68e851-c3cf-4872-b469-c2370fbcab2d",
+          "size": {
+            "height": 231,
+            "width": 268
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 1028,
+            "y": 374
+          },
+          "nodeIndex": "instacart_products",
+          "nodeLineageTag": "430141ed-e852-4435-a2f2-97f234059160",
+          "size": {
+            "height": 201,
+            "width": 264
+          },
+          "zIndex": 5
+        }
+      ],
+      "name": "Todas las tablas",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas las tablas",
+  "defaultDiagram": "Todas las tablas"
+}

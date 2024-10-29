@@ -1,0 +1,9 @@
+{
+  "version": "4.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../k_c_instacart_marketing_dashboard.SemanticModel"
+    },
+    "byConnection": null
+  }
+}
